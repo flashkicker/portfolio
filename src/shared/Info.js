@@ -6,7 +6,7 @@ import Shuttle from '../icons/shuttle.png';
 export const personalInfo = {
 	name: 'Timothy Wiliusa',
 	email: 'wiliusat@oregonstate.edu',
-	title: 'Full Stack Developer',
+	title: 'Full Stack, UI/UX',
 	location: 'Corvallis, OR',
 	weatherEmoji: '☀️',
 	emojiDescription: 'sun-emoji',
@@ -18,10 +18,22 @@ export const personalInfo = {
 
 export const experienceInfo = [
 	{
-		title: 'Full Stack Developer',
-		meta: 'HazAdapt, INC., April 2020 - Current',
+		title: 'Student Associate / Tester',
+		meta: 'HazAdapt, INC., April 2020 - August 2020',
 		description:
-			'Helped design system architecture, developed a cross-platform React Native app and mentored a student developer'
+			'Learn NodeJS and GenderMag. Built an app that focused on inclusive design.'
+	},
+	{
+		title: 'Intern Junior Developer',
+		meta: 'Golden Eagle, INC., April 2021 - December 2021',
+		description:
+			'Office Intern, handled instalations and errors, also management of files and daily records'
+	},
+	{
+		title: 'Junior Developer',
+		meta: 'Pt. Trisakti Mustika Graphika, December 2021 - March 2022',
+		description:
+			'Documenting ATR, learned basic card technology of the MIFARE chip '
 	}
 ];
 
@@ -59,18 +71,15 @@ export const projectInfo = [
 ];
 
 export const skillsInfo = [
-	'Time Management',
+	'MIFARE',
 	'Agile',
 	'SCRUM',
+	'NODE',
 	'JavaScript',
 	'React',
 	'Redux',
-	'Node.js',
-	'GraphQL',
-	'MongoDB',
 	'REST APIs',
 	'SQL',
-	'Semantic UI',
 	'Responsive Design',
 	'Git',
 	'GenderMag',
@@ -79,7 +88,7 @@ export const skillsInfo = [
 
 export const educationInfo = [
 	{
-		title: '4th year Computer Science Major, with focus on Human-Computer Interactions',
+		title: 'Computer Science Major, with focus on Human-Computer Interactions',
 		description: 'Oregon State University, Corvallis, OR'
 	}
 ];

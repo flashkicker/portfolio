@@ -14,7 +14,7 @@ class Right extends Component {
 	render() {
 		return (
 			<div className="ui center aligned basic segment" style={styles.segment}>
-				<Route exact path="/" render={() => <Projects />} />
+				<Route exact path="/" render={() => <Skills />} />
 				<Route exact path={'/experience'} render={() => <Experience />} />
 				<Route exact path={'/projects'} render={() => <Projects />} />
 				<Route exact path={'/skills'} render={() => <Skills />} />

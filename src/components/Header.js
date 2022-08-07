@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom';
 
-const MENU_ITEMS = ['projects', 'skills', 'education'];
+const MENU_ITEMS = ['skills', 'experience', 'education'];
 
 const styles = {
 	fixed: window.innerWidth >= 575.98 ? '' : 'bottom',
@@ -11,13 +11,13 @@ const styles = {
 
 class Header extends Component {
 	state = {
-		activeRoute: 'experience'
+		activeRoute: 'skills'
 	};
 
 	componentDidMount() {
 		const { pathname } = this.props.location;
 		this.setState({
-			activeRoute: pathname === '/' ? 'experience' : pathname.slice(1)
+			activeRoute: pathname === '/' ? 'skills' : pathname.slice(1)
 		});
 	}
 
