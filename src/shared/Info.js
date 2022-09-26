@@ -19,21 +19,28 @@ export const personalInfo = {
 export const experienceInfo = [
 	{
 		title: 'Student Associate / Tester',
-		meta: 'HazAdapt, INC., April 2020 - August 2020',
+		meta: 'HazAdapt, INC., Corvallis OR, April 2020 - August 2020',
 		description:
-			'Learn NodeJS and GenderMag. Built an app that focused on inclusive design.'
+			'A startup company based in Corvallis OSU developing an emergency reponse application for Oregon State students. Our team did a bi weeklly GenderMag. I was in the group that focused in the HCI research and inclusivity of the product. I created user personas that represent users with gender fluid preferences, disabilities, and other rare cases that requred special attention.'
+
+			// location
+			// a little description of company 
+			// description of what i did techni
+			// migration of data that was previously in cabinet
+	
+			//what is does (using node js and gendermag)
 	},
 	{
-		title: 'Intern Junior Developer',
+		title: 'Part-time / Intern Junior Developer',
 		meta: 'Golden Eagle, INC., April 2021 - December 2021',
 		description:
-			'Office Intern, handled instalations and errors, also management of files and daily records'
+			'A Human Resource outsorcing company based in Philadelphia PA. I had 2 main jobs, first was the migration of physical records into digital. Second is IT support where I would help out whoever is having trouble with their computer or spreadsheet. Most of the problems were instalations, software updates, spreadsheet formula problems, or involved other basic office tools. I was working as an intern so I did all the intern-work which involved reinstalling software, and application.'
 	},
 	{
-		title: 'Junior Developer',
+		title: 'Part-time / Junior Developer',
 		meta: 'Pt. Trisakti Mustika Graphika, December 2021 - March 2022',
 		description:
-			'Documenting ATR, learned basic card technology of the MIFARE chip '
+			'A security printing company based in Indonesia. I was in a team that was implementing and maintaining a custom company tool that keeps track of orders, purchase requests, and material spending within the company. My work mostly involved designing modals and improving the existing UI. I was also documenting ATR responses whenever the company is using a new chip.'
 	}
 ];
 
