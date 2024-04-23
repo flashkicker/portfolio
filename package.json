@@ -5,7 +5,7 @@
 	"homepage": "http://flashkicker.github.io/",
 	"dependencies": {
 		"@material-ui/styles": "^4.5.0",
-		"gh-pages": "^2.1.1",
+		"gh-pages": "^5.0.0",
 		"react": "^16.10.2",
 		"react-copy-to-clipboard": "^5.0.1",
 		"react-devicon": "^0.1.9",
